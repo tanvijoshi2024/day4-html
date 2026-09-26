@@ -12,8 +12,8 @@
                 margin-bottom: 0;
             }
             .hq{
-                width:300px;
-                display:block;
+               width:100%
+               
              }
              .search-bar{
                  font-size:20px;
@@ -41,32 +41,26 @@
             .div-example{
                 display:inline-block;
             }
-            .video-preview{
-                width:300px;
-                display:inline-block;
-                vertical-align: top;
-                margin-right: 15px;
-            }
+           
             .video-info-grid{
                 display:grid;
                 grid-template-columns: 50px 1fr;
                 grid-gap: 12px;
             }
-            .channel-picture{
-                display:inline-block;
-                width:50px;
-                vertical-align: top;
-            }
-            .video-info{
-                display:inline-block;
-                width:200px;
-            }
+           
             .profile-picture{
                 width:40px;
                 border-radius: 50px;
             }
-            .ing-row{
+            .img-row{
                 margin-bottom: 12px;
+            }
+            .video-grid{
+                display:grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-gap: 15px;
+                column-gap: 16px;
+                row-gap: 40px;
             }
 
         </style>
@@ -74,29 +68,100 @@
     <body>
          <input  class="search-bar"
         type="text" placeholder="Search">
-        
-        <div class="video-preview">
-            <div class="img=-row">  <img class="hq" src="hq720.avif"></div>
+        <div class="video-grid"><div class="video-preview">
+            <div class="img-row"> 
+                 <img class="hq" src="hq720.avif">
+                </div>
             <div class="video-info-grid">
                 <div class="channel-picture">
-                     <img class="profile-picture" src="channel.avif"></div>
+                     <img class="profile-picture" src="channel.avif">
+                    </div>
                 <div class="video-info">    
                     <p class="video-title">koreans try <strong>Indian food</strong> For the first time</p>
                   <p class="video-author">HappyHoon</p>
                  <p class="video-stats">199k views &#183; 4 days ago</p></div>
                 
                 </div></div>
-          
-       
-        
+
          <div class="video-preview">
-            <div class="img-row">  <img class="hq" src="hq721.avif"></div>
-            <div>
+            <div class="img-row">  <img class="hq" src="hq721.avif">
+            </div>
+            <div class="video-info-grid">
                 <div class="channel-picture">
-                     <img class="profile-picture" src="unnamed2.avif"></div>
+                     <img class="profile-picture" src="unnamed2.avif">
+                    </div>
                 <div class="video-info">    
                   <p class="video-title">Build stunning Websites & Apps with AI-Chat</p>
                   <p class="video-author">Caffeine.ai</p>
                  <p class="video-stats">200k views &#183; 4 days ago</p></div>
-    </body>
-    </html
+                 </div></div>
+
+
+                 <div class="video-preview">
+            <div class="img-row"> 
+                 <img class="hq" src="uni.avif">
+                </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                     <img class="profile-picture" src="uni1.avif">
+                    </div>
+                <div class="video-info">    
+                    <p class="video-title">My first day of school at Yonsei University</p>
+                  <p class="video-author">Danielle Chung</p>
+                 <p class="video-stats">193k views &#183; 6mo ago</p></div>
+                
+                </div></div>
+
+         <div class="video-preview">
+            <div class="img-row">  <img class="hq" src="mum.avif">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                     <img class="profile-picture" src="mum1.avif">
+                    </div>
+                <div class="video-info">    
+                  <p class="video-title">I Just landed in Mumbai I am Shocked in..</p>
+                  <p class="video-author">Stef</p>
+                 <p class="video-stats">50k views &#183; 2 day ago</p></div>
+                 </div></div>
+
+
+
+                 <div class="video-preview">
+            <div class="img-row"> 
+                 <img class="hq" src="ame.avif">
+                </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                     <img class="profile-picture" src="ame1.avif">
+                    </div>
+                <div class="video-info">    
+                    <p class="video-title">Americans try Indian Snacks for the first time.</p>
+                  <p class="video-author">People Vs Food</p>
+                 <p class="video-stats">2.3M views &#183; 2y ago</p></div>
+                
+                </div></div>
+
+         <div class="video-preview">
+            <div class="img-row">  <img class="hq" src="joke.avif">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                     <img class="profile-picture" src="joke1.avif">
+                    </div>
+                <div class="video-info">    
+                  <p class="video-title">REACTING TO MEMES WITH JEMIMHA RODRIGUES</p>
+                  <p class="video-author">Tanmay Bhat</p>
+                 <p class="video-stats">6.9k views &#183; 4 days ago</p></div>
+                 </div></div>
+                </div>
+        
+        
+
+
+
+
+
+           
+       </body>
+    </html>
